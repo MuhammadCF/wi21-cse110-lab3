@@ -1,1 +1,16 @@
 /*This is for Lab 3 */
+.intro::first-line {
+  border-style: inset;
+  border-color: #ff0000;
+  border-width: 0.1em;
+  border-radius: 5px;
+}
+
+* {
+  text-decoration: underline;
+}
+
+/* a > b {
+    line-height: ;
+    font-size: ;
+} */
