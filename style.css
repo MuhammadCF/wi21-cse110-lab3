@@ -1,4 +1,5 @@
 /*This is for Lab 3 */
+
 .intro::first-line {
   border-style: inset;
   border-color: #ff0000;
@@ -92,6 +93,34 @@ span.question {
 
 #date {
   display: none;
+}
+
+#box {
+  display: flex;
+  flex-direction: row;
+  color: green;
+  margin: auto;
+}
+#box > p {
+  flex-basis: auto;
+  flex-grow: 5;
+  flex-shrink: 3;
+}
+
+#grid {
+  /* color: red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#grid > #prime {
+  /* color: red; */
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: yellow;
 }
 
 /* a > b {
