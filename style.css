@@ -60,6 +60,15 @@ h3 + p {
   color: chartreuse;
 }
 
+h1 {
+  text-align: center;
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+a[target='_blank']:active {
+  color: green;
+}
+
 /* a > b {
     line-height: ;
     font-size: ;
