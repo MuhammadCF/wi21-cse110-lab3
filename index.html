@@ -6,7 +6,30 @@
     <title>lab2CSE110</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        
+
+
+        #miscellaneous {
+            color: hsla(337, 70%, 27%, 50%);
+        }
+        #fifth {
+            color: rgba(84, 201, 175,25%);
+        }
+        h3 {
+            color: rgb(84, 201, 175);
+        }
+
+        h2 {
+            color: #998cc6;
+        }
+
+        #philosopher {
+            color: hsl(337, 70%, 27%);
+        }
+
+        .intro {
+            background-color: #67a2e4;
+        }
+
     </style>
 </head>
 <body>
@@ -16,7 +39,7 @@
             <a href="/index.html"><b>also go nowhere</b></a>
             <a href="/index.html"><i>also go nowhere ,but in italic</i></a>
         </nav>
-        <h1>Muhammad Fajar</h1>
+        <h1 style="color: aqua;">Muhammad Fajar</h1>
     </header>
 
     <main>
@@ -27,7 +50,7 @@
             <div>
                 <hr>
                 <br>
-                <p>
+                <p class="intro">
                     My name is Muhammad Fajar, and I have furnished herewith
                     a collection of useful tags for later purpose once I developed
                     enough intent and structure to make my own polished 
@@ -36,7 +59,7 @@
                     June 2021. 
 
                     Things that often keep me up at night is the thought experiment
-                    regarding atlantic cod.
+                    regarding <span>atlantic cod</span>.
                     A rudimentary and yet simple life form, have they ever
                     come to the point where, existential questions
                     not unlike the ones brought Fourth by the brightest
@@ -49,7 +72,7 @@
 
                 </p>
                 <br>
-                <p>
+                <p class="intro">
                     Mayhaps indeed they have engineered
                     their own brand of skepticism,
                     rendering all of their atlantic problem
@@ -59,14 +82,14 @@
                     a robust frame of thinking must be developed as
                     a mean onto their survival.
                 </p>
-                <aside>
+                <aside class="intro">
                     As the cod equivalent of Descartes once said: <code>I swim therefore I am</code>
                 </aside>
             </div>
         </section>
 
         <section>
-            <h3>More about myself</h3>
+            <h3 id="philosopher">More about myself</h3>
             <br>
             <p>my favorite <span>philosophers: </span></p>
             <ul>
@@ -84,7 +107,7 @@
         </section>
 
         <section>
-            <h3>Miscellaneous </h3>
+            <h3 id="miscellaneous">Miscellaneous </h3>
             <p>My Favorite Site:</p>
             <iframe width="420" height="315"
             src="https://www.sciencedirect.com/">
@@ -180,7 +203,7 @@
 
 
         <section>
-            <h3>The Fifth Section</h3>
+            <h3 id="fifth">The Fifth Section</h3>
 
             <details>
                 <summary>ucsd edu</summary>
